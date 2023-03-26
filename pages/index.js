@@ -4,6 +4,7 @@ import Image from 'next/image'
 /** import all components */
 import Aside from '../components/aside'
 import Main from '../components/main'
+import Search from '../components/search'
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </div>
       <div className='bg-gray-800 text-gray-50 col-span-5 min-h-screen h-full mb-40'>
         <Main></Main>      
-        <h1>Search Bar</h1>        
+        <Search></Search>        
       </div>
    </div>
   )
