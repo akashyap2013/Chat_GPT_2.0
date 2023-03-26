@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+/** import all components */
 import Aside from '../components/aside'
+import Main from '../components/main'
 
 export default function Home() {
   return (
@@ -9,7 +12,7 @@ export default function Home() {
         <Aside></Aside>      
       </div>
       <div className='bg-gray-800 text-gray-50 col-span-5 min-h-screen h-full mb-40'>
-        <h1>Main</h1>        
+        <Main></Main>      
         <h1>Search Bar</h1>        
       </div>
    </div>
